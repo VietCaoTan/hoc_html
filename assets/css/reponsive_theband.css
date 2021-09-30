@@ -1,0 +1,91 @@
+@media (min-width: 64em) {
+    /* PC - 1024px-max*/
+
+}
+
+@media (max-width: 63.9375em) {
+    /* mobile-tablet  - max 1023px*/
+    .mobile-btn{
+        padding: 16px;
+    }
+
+}
+
+@media (min-width: 46.25em) 
+and (max-width: 63.9375em) {
+    /* Tablet 740px-1023px*/
+
+}
+
+@media (max-width: 46.1875em) {
+    /* Mobile max 739px*/
+    #header{
+        overflow:hidden;
+        /* height: auto; */
+    }
+
+    #header .search-btn{
+        display: none;
+    }
+
+    #header .menu-btn{
+       display: block
+    }
+
+    #header .menu-btn:hover{
+        background-color: #ccc;
+        color: #000;
+    }
+
+
+    #nav li{
+        display: block;    
+    }
+    
+    #nav li:first-child {
+        display: inline-block;
+    } 
+      
+    #nav li a{
+        display: block;
+        padding: 1px 24px;
+    }
+    
+    #nav li .subnav {
+        position: initial;
+        background-color: #333;
+    }
+
+    #nav .subnav a{
+        color: #fff;
+        padding: 13px 41px;
+    }
+
+    #content .mobile-member {
+        width: 100%;
+    }
+
+    .mobile-tour-body {
+        width: 100%;
+    }
+
+    .mobile-btn{
+        width: 100%;        
+    }
+    
+    .mobile-contact{
+        width: 100%;
+        
+    }
+
+    .mobile-contact-info{
+        padding: 0 0;
+    }
+   
+    .form-control{        
+        margin: 0 8px 8px 0;
+    }
+
+}
+
+    
